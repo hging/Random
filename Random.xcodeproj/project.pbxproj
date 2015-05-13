@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010C36971B031CDB0048098F /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C36961B031CDB0048098F /* RandomController.m */; };
 		01D1CF171B03189400D4ABB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1CF161B03189400D4ABB2 /* AppDelegate.m */; };
 		01D1CF191B03189400D4ABB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1CF181B03189400D4ABB2 /* main.m */; };
 		01D1CF1C1B03189400D4ABB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1CF1B1B03189400D4ABB2 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010C36951B031CDB0048098F /* RandomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
+		010C36961B031CDB0048098F /* RandomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 		01D1CF101B03189400D4ABB2 /* Random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D1CF141B03189400D4ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D1CF151B03189400D4ABB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				01D1CF1B1B03189400D4ABB2 /* ViewController.m */,
 				01D1CF1D1B03189400D4ABB2 /* Images.xcassets */,
 				01D1CF1F1B03189400D4ABB2 /* Main.storyboard */,
+				010C36951B031CDB0048098F /* RandomController.h */,
+				010C36961B031CDB0048098F /* RandomController.m */,
 				01D1CF131B03189400D4ABB2 /* Supporting Files */,
 			);
 			path = Random;
@@ -217,6 +222,7 @@
 			files = (
 				01D1CF1C1B03189400D4ABB2 /* ViewController.m in Sources */,
 				01D1CF191B03189400D4ABB2 /* main.m in Sources */,
+				010C36971B031CDB0048098F /* RandomController.m in Sources */,
 				01D1CF171B03189400D4ABB2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +413,7 @@
 				01D1CF321B03189400D4ABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01D1CF331B03189400D4ABB2 /* Build configuration list for PBXNativeTarget "RandomTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				01D1CF351B03189400D4ABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
